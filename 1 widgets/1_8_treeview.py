@@ -8,8 +8,8 @@ window.geometry('600x400')
 window.title('Treeview')
 
 # data 
-first_names = ['Bob', 'Maria', 'Alex', 'James', 'Susan', 'Henry', 'Lisa', 'Anna', 'Lisa']
-last_names = ['Smith', 'Brown', 'Wilson', 'Thomson', 'Cook', 'Taylor', 'Walker', 'Clark']
+first_names = ['Ben', 'Mary', 'Alex', 'James', 'Susan', 'Henry', 'Lisa', 'Anna', 'Lisa', 'mike']
+last_names = ['Smith', 'Brown', 'Wilson', 'Thomson', 'Cook', 'Taylor', 'Walker', 'Clark', 'harry']
 
 # treeview 
 table = ttk.Treeview(window, columns = ('first', 'last', 'email'), show = 'headings')
